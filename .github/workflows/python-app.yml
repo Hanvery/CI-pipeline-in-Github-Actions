@@ -21,7 +21,7 @@ jobs:
       with:
         python-version: 3.9
         
-    - - name: Lint with pylint
+    - name: Lint with pylint
       run: |
         pylint --exit-zero my_source.py
     - name: Test with pytest
